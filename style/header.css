@@ -1,0 +1,80 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 200px; /* Учитываем ширину сайдбара */
+  right: 0;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin: 10px;
+  z-index: 10;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 5px 10px;
+  width: 300px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  background: transparent;
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.user-section img{
+    background: #fff;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.notification-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.user-profile {
+    background: #fff;
+    border-radius: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+
+.user-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.user-profile span {
+  font-size: 16px;
+  color: #333;
+}
+
+.dropdown-icon {
+  width: 10px;
+  height: 10px;
+}

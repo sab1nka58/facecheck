@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./style/sidebar.css" />
+    <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="./style/index.css" />
+  </head>
+  <body>
+    <div id="header-container"></div>
+    <div id="sidebar-container"></div>
+
+    <div class="content">
+      <div class="welcome-section">
+        <h5>Welcome back, Evan!</h5>
+        <p id="date-range"></p>
+        <!-- Здесь будет динамическая дата -->
+      </div>
+      <h2>Dashboard</h2>
+      <div class="dashboard-grid">
+        <!-- Workload Section -->
+        <div class="workload-section">
+          <div class="section-header">
+            <h5>Workload</h5>
+            <a href="#" class="view-all">View all →</a>
+          </div>
+          <div class="workload-cards">
+            <div class="workload-card">
+              <img
+                src="./assets/avatars/avatar1.png"
+                alt="avatar"
+                class="avatar"
+              />
+              <div class="workload-info">
+                <h3>Steven Drew</h3>
+                <p>UI/UX Designer</p>
+                <span class="status critical">Critical</span>
+              </div>
+            </div>
+            <div class="workload-card">
+              <img
+                src="./assets/avatars/avatar2.png"
+                alt="avatar"
+                class="avatar"
+              />
+              <div class="workload-info">
+                <h3>Ronald Richards</h3>
+                <p>UI/UX Designer</p>
+                <span class="status medium">Medium</span>
+              </div>
+            </div>
+            <div class="workload-card">
+              <img
+                src="./assets/avatars/avatar3.png"
+                alt="avatar"
+                class="avatar"
+              />
+              <div class="workload-info">
+                <h3>Emily Tyler</h3>
+                <p>Copywriter</p>
+                <span class="status hidden">Hidden</span>
+              </div>
+            </div>
+            <div class="workload-card">
+              <img
+                src="./assets/avatars/avatar4.png"
+                alt="avatar"
+                class="avatar"
+              />
+              <div class="workload-info">
+                <h3>Louis Castro</h3>
+                <p>Copywriter</p>
+                <span class="status low">Low</span>
+              </div>
+            </div>
+            <div class="workload-card">
+              <img
+                src="./assets/avatars/avatar1.png"
+                alt="avatar"
+                class="avatar"
+              />
+              <div class="workload-info">
+                <h3>Steven Drew</h3>
+                <p>UI/UX Designer</p>
+                <span class="status critical">Critical</span>
+              </div>
+            </div>
+            <div class="workload-card">
+              <img
+                src="./assets/avatars/avatar2.png"
+                alt="avatar"
+                class="avatar"
+              />
+              <div class="workload-info">
+                <h3>Ronald Richards</h3>
+                <p>UI/UX Designer</p>
+                <span class="status medium">Medium</span>
+              </div>
+            </div>
+            <div class="workload-card">
+              <img
+                src="./assets/avatars/avatar3.png"
+                alt="avatar"
+                class="avatar"
+              />
+              <div class="workload-info">
+                <h3>Emily Tyler</h3>
+                <p>Copywriter</p>
+                <span class="status hidden">Hidden</span>
+              </div>
+            </div>
+            <div class="workload-card">
+              <img
+                src="./assets/avatars/avatar4.png"
+                alt="avatar"
+                class="avatar"
+              />
+              <div class="workload-info">
+                <h3>Louis Castro</h3>
+                <p>Copywriter</p>
+                <span class="status low">Low</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Nearest Events Section -->
+        <div class="events-section">
+          <div class="section-header">
+            <h5>Nearest Events</h5>
+            <a href="#" class="view-all">View all →</a>
+          </div>
+          <div class="events-list">
+            <div class="event">
+              <div class="event-info">
+                <h3>Presentation of the new department</h3>
+                <img src="./assets/events-icon/medium.png" alt="" />
+              </div>
+              <div class="event-date">
+                <p>Today | 15:00 PM</p>
+                <p><img src="./assets/events-icon/time.png" alt="" /> 4h</p>
+              </div>
+            </div>
+
+            <div class="event">
+              <div class="event-info">
+                <h3>Ray’s Birthday</h3>
+                <img src="./assets/events-icon/medium.png" alt="" />
+              </div>
+              <div class="event-date">
+                <p>Tomorrow | 12:00</p>
+                <p><img src="./assets/events-icon/time.png" alt="" /> 4h</p>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-info">
+                <h3>Anna’s Birthday</h3>
+                <img src="./assets/events-icon/low.png" alt="" />
+              </div>
+              <div class="event-date">
+                <p>Today | 15:00 PM</p>
+                <p><img src="./assets/events-icon/time.png" alt="" /> 4h</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="projects-section">
+          <div class="section-header">
+            <h5>Projects</h5>
+            <a href="#" class="view-all">View all →</a>
+          </div>
+          <div class="projects-cards">
+            <div class="project-card">
+                <div class="project__card-left">
+                     <div class="project-header">
+
+                <img src="./assets/project-icon/Image.png" alt="" />
+                <h3><span class="">PN0001221</span>Medical App (iOS)</h3>
+              
+            </div>
+              <div class="project-data">
+                <p>
+                  <img
+                    src="./assets/project-icon/calendar.png"
+                    alt=""
+                  />Created: Sep 13, 2020
+                </p>
+                <p style="color: #0AC947;""><img src="./assets/events-icon/low.png" alt="" /> Low</p>
+              </div>
+                </div>
+             
+              <div class="project-stats projects-header">
+                <h3>Project Data</h3>
+                <div class="stats">
+                    <div class="stat">
+                  <span class="label">Tasks</span>
+                  <span class="value">23</span>
+                </div>
+                <div class="stat">
+                  <span class="label">In Progress</span>
+                  <span class="value">5</span>
+                </div>
+                <div class="assignees">
+                    <p>Assignees</p>
+                    <img src="./assets/avatars/avatar1.png" alt="">
+                    <img src="./assets/avatars/avatar2.png" alt="">
+                    <img src="./assets/avatars/avatar3.png" alt="">
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+             <div class="project__card-left">
+                     <div class="project-header">
+
+                <img src="./assets/project-icon/Image.png" alt="" />
+                <h3><span class="">PN0001221</span>Medical App (iOS)</h3>
+              
+            </div>
+              <div class="project-data">
+                <p>
+                  <img
+                    src="./assets/project-icon/calendar.png"
+                    alt=""
+                  />Created: Sep 13, 2020
+                </p>
+                <p style="color: #0AC947;""><img src="./assets/events-icon/low.png" alt="" /> Low</p>
+              </div>
+                </div>
+              <div class="project-stats projects-header">
+                <h3>Project Data</h3>
+                <div class="stats">
+                    <div class="stat">
+                  <span class="label">Tasks</span>
+                  <span class="value">23</span>
+                </div>
+                <div class="stat">
+                  <span class="label">In Progress</span>
+                  <span class="value">5</span>
+                </div>
+                <div class="assignees">
+                    <p>Assignees</p>
+                    <img src="./assets/avatars/avatar1.png" alt="">
+                    <img src="./assets/avatars/avatar2.png" alt="">
+                    <img src="./assets/avatars/avatar3.png" alt="">
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project__card-left">
+                     <div class="project-header">
+
+                <img src="./assets/project-icon/Image.png" alt="" />
+                <h3><span class="">PN0001221</span>Medical App (iOS)</h3>
+              
+            </div>
+              <div class="project-data">
+                <p>
+                  <img
+                    src="./assets/project-icon/calendar.png"
+                    alt=""
+                  />Created: Sep 13, 2020
+                </p>
+                <p style="color: #0AC947;""><img src="./assets/events-icon/low.png" alt="" /> Low</p>
+              </div>
+                </div>
+              <div class="project-stats projects-header">
+                <h3>Project Data</h3>
+                <div class="stats">
+                    <div class="stat">
+                  <span class="label">Tasks</span>
+                  <span class="value">23</span>
+                </div>
+                <div class="stat">
+                  <span class="label">In Progress</span>
+                  <span class="value">5</span>
+                </div>
+                <div class="assignees">
+                    <p>Assignees</p>
+                    <img src="./assets/avatars/avatar1.png" alt="">
+                    <img src="./assets/avatars/avatar2.png" alt="">
+                    <img src="./assets/avatars/avatar3.png" alt="">
+                </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Active Stream Section -->
+        <div class="stream-section">
+          <div class="section-header">
+            <h5>Active Stream</h5>
+            
+          </div>
+          <div class="stream-list">
+            <div class="stream-item">
+                <div class="stream-link">
+                   <img
+                src="./assets/avatars/avatar1.png"
+                alt="avatar"
+                class=""
+              /><h3>
+                  Oscar Holloway
+                  <span class="task-label">UI/UX Designer</span>
+                </h3>  
+                </div>
+
+             
+              <div class="stream-info">
+                
+                <p><img src="./assets/sream-icon/icon1.png" alt="">Updated the status of Mind Map task to In Progress</p>
+                <p><img src="./assets/sream-icon/attach.png" alt="">Attached files to the task</p>
+              </div>
+            </div>
+            <div class="stream-item">
+                <div class="stream-link">
+                  <img
+                src="./assets/avatars/avatar2.png"
+                alt="avatar"
+                                class="stream-info"
+              />
+              <h3>
+                Emily Tyler <span class="task-label">Copywriter</span>
+              </h3>  
+                </div>
+              <div class="stream-info">
+                <p><img src="./assets/sream-icon/icon1.png" alt="">Updated the status of Mind Map task to In Progress</p>
+              </div>
+              
+               
+            </div>
+          </div>
+          <a href="#" class="view-all">View more →</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script/script.js">
+              async function loadSidebar() {
+          try {
+              const response = await fetch('./sidebar.html');
+              const sidebarHTML = await response.text();
+              document.getElementById('sidebar-container').innerHTML = sidebarHTML;
+              highlightActiveLink();
+          } catch (error) {
+              console.error('Ошибка загрузки сайдбара:', error);
+          }
+      }
+
+      async function loadHeader() {
+          try {
+              const response = await fetch('./header.html');
+              const headerHTML = await response.text();
+              document.getElementById('header-container').innerHTML = headerHTML;
+          } catch (error) {
+              console.error('Ошибка загрузки хедера:', error);
+          }
+      }
+
+      function highlightActiveLink() {
+          const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+          const links = document.querySelectorAll('.sidebar > a, .sidebar__wrap > a');
+
+          links.forEach(link => {
+              const linkPath = link.getAttribute('href');
+              if (linkPath === currentPath) {
+                  link.classList.add('active');
+              } else {
+                  link.classList.remove('active');
+              }
+          });
+
+          const supportLink = document.querySelector('.support a');
+          if (supportLink) {
+              const supportPath = supportLink.getAttribute('href');
+              if (supportPath === currentPath) {
+                  supportLink.classList.add('active');
+              } else {
+                  supportLink.classList.remove('active');
+              }
+          }
+      }
+
+      // Загружаем сайдбар и хедер при загрузке страницы
+      window.onload = async () => {
+          await loadHeader();
+          await loadSidebar();
+      };
+    </script>
+  </body>
+</html>
