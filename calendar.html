@@ -6,16 +6,47 @@
     <title>Dashboard</title>
     <link rel="stylesheet" href="./style/sidebar.css">
     <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/calendar.css">
 </head>
 <body>
     <div id="header-container"></div>
     <div id="sidebar-container"></div>
 
-    <div class="content">
-        <h1>calendar</h1>
-        <p>This is the dashboard page.</p>
+    <div class="content"> <h2>Calendar</h2>
+       <div class="calendar-container">
+        <div class="calendar-header">
+
+           
+            <button id="addEventBtn">+ Add Event</button>
+        </div>
+        <div class="calendar-nav">
+            <button id="prevMonth">←</button>
+            <span id="monthYear"></span>
+            <button id="nextMonth">→</button>
+        </div>
+        <div class="calendar-grid" id="calendarGrid">
+
+        </div>
+    </div>
+
+    <div class="modal" id="eventModal">
+        <div class="modal-content">
+            <h3>Add Event</h3>
+            <input type="text" id="eventName" placeholder="Event Name">
+            <input type="date" id="eventDate">
+            <input type="text" id="eventDuration" placeholder="Duration (e.g., 3h)">
+            <select id="eventColor">
+                <option value="purple">Purple (Birthday)</option>
+                <option value="blue">Blue (Presentation)</option>
+            </select>
+            <button onclick="saveEvent()">Save</button>
+            <button onclick="closeModal()">Cancel</button>
+        </div>
+    </div>
+
     </div>
 
     <script src="./script/script.js"></script>
+    <script src="./script/calendar.js"></script>
 </body>
 </html>

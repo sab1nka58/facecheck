@@ -1,0 +1,151 @@
+.content {
+  margin-left: 220px;
+  margin-top: 80px;
+  padding-top: 20px;
+}
+        
+        
+        .calendar-container {
+          
+            /* border: 2px solid #007bff; */
+            border-radius: 8px;
+            background-color: #fff;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .calendar-header {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .calendar-header h2 {
+            margin: 0;
+            font-size: 18px;
+            color: #333;
+        }
+        .calendar-header button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .calendar-header button:hover {
+            background-color: #0056b3;
+        }
+        .calendar-nav {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        .calendar-nav button {
+            background-color: transparent;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .calendar-grid {
+            display: grid;
+            
+            border-top: 1px solid #dee2e6;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 1px;
+            background-color: #e9ecef;
+        }
+        .calendar-day {
+            background-color: #fff;
+            padding: 10px;
+            min-height: 60px;
+            font-size: 14px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .calendar-day.empty {
+            background-color: #fff;
+        }
+        .calendar-day.next-month {
+            background-color: #fff;
+            color: #999;
+        }
+        .calendar-day.header {
+            font-weight: bold;
+            background-color: #fff;
+            text-align: center;
+            padding: 5px;
+        }
+        .event {
+            background-color: #e6f3ff;
+            border-left: 3px solid #6f42c1;
+            margin-top: 5px;
+            padding: 5px;
+            font-size: 12px;
+            width: 100%;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+        }
+        .event span {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            margin-right: 5px;
+            background-color: #28a745;
+            border-radius: 50%;
+            color: #fff;
+            text-align: center;
+            line-height: 16px;
+            font-size: 10px;
+        }
+        .event.yellow span {
+            background-color: #ffc107;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+        }
+        .modal-content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        .modal-content h3 {
+            margin: 0 0 15px;
+            font-size: 16px;
+        }
+        .modal-content input, .modal-content select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .modal-content button {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .modal-content button:first-of-type {
+            background-color: #007bff;
+            color: #fff;
+            margin-right: 10px;
+        }
+        .modal-content button:last-of-type {
+            background-color: #dc3545;
+            color: #fff;
+        }
+   
